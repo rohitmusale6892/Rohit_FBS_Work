@@ -1,0 +1,5 @@
+principle=int(input("enter principle amount: "))
+year=int(input("enter no of year: "))
+rate=int(input("enter rate of interest: "))
+compoundInterest= principle*(1+(rate/1))**(1*year)
+print(compoundInterest)
